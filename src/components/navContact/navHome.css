@@ -1,0 +1,45 @@
+.container{
+    height: 300px;
+    padding: 15px 0px;
+   
+}
+.row{
+    height: 100%;
+   
+}
+.home_menue_card{
+   margin: 0px 3px;
+}
+
+.home_menue_img img{
+    height: 100%;
+    width: 100%;
+}
+.home_menue_content{
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 20px;
+   
+}
+
+.home_menue_card:hover{
+    color: blue;
+}
+.home_menue_title{
+    text-align: center;
+    margin: auto;
+    font-weight: 400;
+    font-size: 25px;
+   
+}
+
+.home_menue_img img {
+    transition: 0.3s ease;
+    opacity: 1;
+}
+
+.home_menue_img img:hover {
+  opacity: 0.5;
+}

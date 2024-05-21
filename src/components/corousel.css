@@ -1,0 +1,19 @@
+.corousel{
+    display: inline-block;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+}
+
+.previous{
+    position: absolute;
+left:20px;
+z-index: 1;
+
+}
+
+.next{
+    position: absolute;
+right:20px
+}

@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+
+}
+
+form{
+    width: 80%;
+    /* color: rgb(107, 158, 4); */
+ 
+    /* text-align: center; */
+    
+
+}
+
+.prodCol{
+    color: white;
+    background-image:  linear-gradient(to right, #2f57ef, #b966e7, #b966e7d9);
+}
+/* const divStyle = {
+    backgroundImage: 'linear-gradient(to right, #2f57ef, #b966e7, #b966e7d9)'
+}; */

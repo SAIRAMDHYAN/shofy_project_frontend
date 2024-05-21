@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    height:auto
+}
+.row{
+
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.bannerContent{
+    box-sizing: border-box;
+    background-color: rgba(178, 200, 245, 0.352)
+    
+}
+
+.bannerTitle a{
+
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 36px;
+    text-decoration: none;
+    color: black; 
+
+}
+.bannerTitle a:hover{
+    color:rgb(130, 31, 64);
+}
+
+
+.bannerBtn button{
+    margin: 20px 0px;
+   border: 2px solid black;
+   padding: 8px  30px;
+   font-size:20px;
+   background-color:white;
+   color: black; 
+}
+
+.bannerBtn button:hover{
+    background-color:rgb(130, 31, 64);
+    border: 2px solid rgb(130, 31, 64);
+    color: white;
+}
+
+.bannerImg img{
+    height: 100%;
+    transition: 0.5 ease-out;
+    z-index:-1;
+ 
+}
+
+.bannerImg img:hover{
+transform: scale(1.15);
+overflow: hidden;
+z-index:-1
+}

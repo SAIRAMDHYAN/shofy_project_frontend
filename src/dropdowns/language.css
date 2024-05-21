@@ -1,0 +1,19 @@
+
+.select-container{
+    display: inline-block;
+    position: relative;
+    height: 30px;
+    border: none;
+}
+
+.select-box{
+    border: none;
+    padding: 0px 20px 0px 15px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    font-size: larger;
+}
+option:hover{
+    background-color: aqua;
+}

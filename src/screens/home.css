@@ -1,0 +1,10 @@
+/* Apply to root element */
+html, body {
+    width: 100vw;
+    overflow-x: hidden; /* Optional: to prevent horizontal scrolling */
+  }
+  
+  /* OR Apply to a container */
+  .container {
+    max-width: 100vw;
+  }

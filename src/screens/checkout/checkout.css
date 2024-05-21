@@ -1,0 +1,21 @@
+
+
+
+#placeOrder{
+    height: 50px;
+    width: 100%;
+    margin:20px auto;
+    color: aliceblue;
+    background-color:rgb(9, 137, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+}
+
+#placeOrder:hover{
+    background-color: black;
+    color: aliceblue;
+}

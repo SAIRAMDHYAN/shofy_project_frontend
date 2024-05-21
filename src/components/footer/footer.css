@@ -1,0 +1,101 @@
+
+/* .sec_padding{
+    padding: 20px 20px;
+} */
+
+.footer{
+    background-color: rgb(239, 241, 245);
+    margin: 0px 0px;
+    padding: 100px 0px;
+}
+
+.footer_sec{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_sec{
+    display: inline-block;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-direction:row ;
+    width: 100%;
+    text-align: left;
+
+}
+
+.footer_sec_links{
+
+    font-size: smaller;
+
+}
+
+.footer_sec_links a{
+
+    font-size: 18px;
+    font-weight: 380;
+    line-height: 40px;
+    text-decoration: none;
+    color: black;
+
+}
+
+
+.footer_sec_links a:hover{
+    color: brown;
+}
+
+
+
+.description h5{
+ margin: 30px 0px;
+ font-size: 22px;
+ font-weight: 380;
+
+}
+
+.footer_social{
+    display: flex;
+    align-items: center;
+}
+
+.footer_social>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 45px;
+    width: 45px;
+    margin:20px 3px;
+    font-size: x-large;
+}
+
+.footer_social  :hover{
+color: white ;
+background-color:rgb(130, 31, 64);
+}
+
+.contact p{
+    font-size: 22px;
+    font-weight: 380;
+}
+
+.contact h4:hover,
+.contact a:hover{
+  color: rgb(130, 31, 64);
+}
+
+.contact a{
+    font-size: 20px;
+    font-weight: 380;
+}
+
+
+
+@media  (max-width:760px) {
+    .account,.information,.contact {
+        display: none;
+    }
+
+}
